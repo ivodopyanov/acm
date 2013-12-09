@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package acm;
+
+import org.junit.Test;
+
+/**
+ * @author ivodopyanov
+ * @since 09 дек. 2013 г.
+ *
+ */
+public class SolutionTest
+{
+    @Test
+    public void test()
+    {
+        //@formatter:off
+        int[][]  graph=new int[][]{ 
+                new int[]{0, 2600, 3800, 2600, 2500}, 
+                new int[]{2600,0,5300,3900,4400}, 
+                new int[]{3800,5300,0,1900,4500}, 
+                new int[]{2600,3900,1900,0,3700}, 
+                new int[]{2500,4400,4500,3700,0}};
+        //@formatter:on
+        Solution.calc(graph);
+    }
+}
