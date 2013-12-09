@@ -3,14 +3,17 @@
  */
 package acm;
 
+import org.junit.Test;
+
 /**
  * @author ivodopyanov
  * @since 09 дек. 2013 г.
  *
  */
-public class Solution
+public class SolutionTest
 {
-    public static void main(String[] args)
+    @Test
+    public void test()
     {
 
     }
