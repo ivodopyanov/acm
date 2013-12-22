@@ -1,8 +1,9 @@
 /**
- * 
+ *
  */
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -13,8 +14,9 @@ import org.junit.Test;
 public class SolutionTest
 {
     @Test
-    public void test()
+    public void X()
     {
-
+    	Basket result=Solution.solve(new Basket(1,2), new Basket(2,1), new Basket(0,3));
+    	Assert.assertEquals(new Basket(1,1), result);
     }
 }
