@@ -5,6 +5,5 @@ public class SolutionTest
     @Test
     public void test()
     {
-
     }
 }

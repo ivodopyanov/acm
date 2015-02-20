@@ -1,13 +1,7 @@
-import java.io.PrintWriter;
-import java.util.Scanner;
-
 public class Solution
 {
-    public static void main(String[] args)
+    public String solve()
     {
-        Scanner in = new Scanner(System.in);
-        PrintWriter out = new PrintWriter(System.out);
-
-        out.flush();
+        return "";
     }
 }
